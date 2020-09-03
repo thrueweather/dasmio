@@ -1,0 +1,12 @@
+.verification-field {
+  .ui[class*="left icon"].input > input {
+    display: none;
+  }
+  input {
+    letter-spacing: 4px;
+    font-size: 23px;
+    ж &::placeholder {
+      text-align: center;
+    }
+  }
+}

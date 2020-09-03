@@ -1,0 +1,36 @@
+.support {
+  margin-bottom: 50px;
+  h1 {
+    font-family: "FigginsBold";
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #6ea7f4;
+  }
+  h4 {
+    font-family: "FigginsBold";
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+  }
+  h5 {
+    font-family: "FigginsBold";
+    font-size: 18px;
+    line-height: 150%;
+  }
+  p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+  }
+  .content-wrapp {
+    height: calc(100vh - 50px);
+    overflow: auto;
+    padding-bottom: 50px;
+    .content {
+      margin-top: 50px;
+      margin-left: 230px;
+      margin-right: 230px;
+    }
+  }
+}

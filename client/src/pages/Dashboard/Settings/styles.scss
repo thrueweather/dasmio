@@ -1,0 +1,59 @@
+.settings {
+  .navigation {
+    text-align: center;
+    border-bottom: 1px solid #333333;
+    line-height: normal;
+    padding-bottom: 10px;
+    .active {
+      border-bottom: 4px solid #333333;
+    }
+    a {
+      font-size: 18px;
+      line-height: 25px;
+      color: #333333;
+      padding: 0 43px 10px 43px !important;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .wrapp {
+    padding-top: 30px;
+    .ui.selection.dropdown {
+      height: 40px;
+    }
+    .toolbar .ui.selection.visible.dropdown.select > .text,
+    .toolbar .ui.search.dropdown.select > .text {
+      padding-left: 0px !important;
+    }
+    .no-matches-wrapp {
+      position: relative;
+      height: calc(100vh - 350px);
+      h1 {
+        margin-right: 49px !important;
+      }
+    }
+  }
+  .action-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bdbdbd;
+    cursor: pointer;
+  }
+  .action-icon.play {
+    background: #6ea7f4;
+    border: none;
+    margin: 0 30px;
+  }
+  .action-icon.stop {
+    background: #f37474;
+    border: none;
+    margin: 0 30px;
+  }
+}

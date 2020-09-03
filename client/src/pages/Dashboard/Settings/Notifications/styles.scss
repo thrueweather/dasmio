@@ -1,0 +1,102 @@
+.notifications {
+  table {
+    background: #ffffff;
+    border-collapse: separate;
+    border-spacing: 0;
+    tbody {
+      border: 1px solid #e0e0e0;
+    }
+    tr {
+      border: 1px solid #e0e0e0;
+      &:first-child {
+        td {
+          border-top: 1px solid #e0e0e0;
+        }
+      }
+      th {
+        font-family: "FigginsBold";
+        font-weight: bold;
+        font-size: 18px;
+        color: #333333;
+        padding-bottom: 25px;
+        vertical-align: initial;
+        &:first-child {
+          font-size: 24px;
+        }
+      }
+      td {
+        font-size: 16px;
+        padding: 32px 28px;
+        color: #828282;
+        border-bottom: 1px solid #e0e0e0;
+        .ui.checkbox input:checked ~ .box:before,
+        .ui.checkbox input:checked ~ label:before {
+          border-color: #6ea7f4;
+          background-color: #6ea7f4;
+        }
+        .ui.checkbox input:checked ~ .box:after,
+        .ui.checkbox input:checked ~ label:after {
+          color: white;
+        }
+        .link {
+          font-family: "FigginsBold";
+
+          color: #6ea7f4 !important;
+        }
+        &:first-child {
+          border-left: 1px solid #e0e0e0;
+        }
+        &:last-child {
+          border-right: 1px solid #e0e0e0;
+        }
+        .chip {
+          display: inline-block;
+          width: auto;
+          max-width: 321px;
+          padding: 14px;
+          background: #f9f9f9;
+          border-radius: 5px;
+          font-size: 16px;
+          text-transform: capitalize;
+          color: #4f4f4f;
+          margin: 0 15px 15px 0;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+      .expanded-row {
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        form {
+          display: inline;
+          input {
+            height: 40px;
+            width: 150px;
+            border: none;
+            border-left: 1px solid #bdbdbd;
+            padding-left: 12px;
+            text-transform: capitalize;
+            font-size: 16px;
+            margin: 15px 0;
+            margin-top: 0;
+            &::placeholder {
+              color: #bdbdbd;
+              font-size: 16px;
+            }
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

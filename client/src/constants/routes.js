@@ -1,0 +1,31 @@
+export const CONTACT_US = "/contact-us";
+export const COOKIE_POLICY = "/cookie-policy";
+export const PRIVACY_POLICY = "/privacy-policy";
+export const TERMS_AND_CONDITIONS = "/terms-and-conditions";
+export const FAQ = "/faq";
+
+export const SIGN_UP = "/sign-up";
+export const SIGN_IN = "/sign-in";
+export const FORGOT_PASSWORD = "/forgot-password";
+export const SUCCESS = "/success";
+export const VERIFICATION = "/verification";
+export const CHECK_MAIL_BOX = "/check-mailbox";
+export const CHANGE_PASSWORD = "/change-password";
+
+export const CREATE_PROFILE = "/profile/create";
+export const EDIT_PROFILE = "/profile/edit";
+export const LISTINGS = "/listings";
+export const MATCHES = "/matches";
+export const SETTINGS = "/settings";
+export const MESSAGES = "/messages";
+export const CREATE_NEW_POST = "/new-post";
+export const EDIT_POST = "/edit-post";
+export const NO_MATCHES = "/no-matches";
+export const NOTIFICATIONS = "/notifications";
+export const SETTINGS_LISTINGS = "/settings/listings";
+export const SETTINGS_MATCHES = "/settings/matches";
+export const SETTINGS_PROFILES = "/settings/profiles";
+export const SETTINGS_NOTIFICATIONS = "/settings/notifications";
+export const SETTINGS_ACCOUNT = "/settings/account";
+export const SETTINGS_LEGAL = "/settings/legal";
+export const SERVER_ERROR = "/server-error";

@@ -1,0 +1,2 @@
+CREATE USER bportal WITH SUPERUSER PASSWORD 'bportal';
+CREATE DATABASE bportal WITH OWNER bportal;

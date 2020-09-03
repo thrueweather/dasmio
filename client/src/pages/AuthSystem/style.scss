@@ -1,0 +1,106 @@
+@import "../../assets/variables.scss";
+
+.auth {
+  background-image: url("../../assets/auth-background.png");
+  background-size: cover;
+  .auth-wrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 100vh;
+    .auth-navbar {
+      font-size: 16px;
+      font-weight: bold;
+      a {
+        transition: 0.3s all;
+        &:hover {
+          color: #1f4578;
+          text-decoration: none;
+        }
+      }
+      .ui.selection.dropdown {
+        background: none;
+        color: white;
+        min-width: auto;
+        padding: 9px 15px;
+        min-height: 40px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 5px;
+        min-width: 85px;
+      }
+      .ui.selection.active.dropdown .menu {
+        border: 2px solid #ffffff;
+        box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+        background: none;
+        margin: 0;
+        left: -2px;
+        width: calc(100% + 4px);
+      }
+      .ui.selection.dropdown .menu > .item {
+        border: none;
+        font-size: 16px;
+      }
+      .ui.selection.visible.dropdown > .text:not(.default) {
+        font-weight: inherit;
+      }
+      .ui.active.selection.dropdown {
+        border-bottom-width: 0px !important;
+        box-shadow: none;
+      }
+      .ui.dropdown .menu .active.item {
+        display: none;
+      }
+      .ui.dropdown > .text {
+        padding-right: 8px;
+      }
+      .ui.dropdown > .dropdown.icon:before {
+        content: "\f078";
+      }
+      i.icon {
+        margin: 0;
+      }
+    }
+    .title {
+      text-align: center;
+      color: white;
+      .subtitle {
+        font-size: 18px;
+      }
+      .buttons {
+        button {
+          width: 160px;
+          height: 40px;
+          border: 3px solid #ffffff;
+          box-sizing: border-box;
+          box-shadow: 0px 4px 34px rgba(98, 144, 206, 0.4);
+          border-radius: 5px;
+          font-family: "FigginsBold";
+          font-size: 18px;
+          line-height: 150%;
+          padding: 6px 0;
+          background: none;
+          color: white;
+          transition: 0.3s;
+          &:hover {
+            background: white;
+            color: #333333;
+          }
+        }
+      }
+    }
+    .footer {
+      font-size: 14px;
+      font-weight: 100;
+    }
+  }
+  i.icon {
+    position: absolute;
+  }
+  .ui.selection.visible.dropdown > .text,
+  .ui.search.dropdown > .text {
+    font-size: 16px;
+    padding-left: 0px;
+  }
+}

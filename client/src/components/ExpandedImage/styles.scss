@@ -1,0 +1,28 @@
+.expanded-image.ui.modal {
+  > .content {
+    padding: 0 !important;
+    height: 100%;
+    .close {
+      position: absolute;
+      top: -50px;
+      right: -70px;
+    }
+  }
+  h3 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    margin: 18px 0 0 0;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+.blurring.dimmable:not(.scrolling) > .dimmer {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.modal {
+  overflow: visible;
+}
